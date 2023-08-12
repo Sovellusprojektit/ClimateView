@@ -14,7 +14,7 @@ Tekijät ovat Oulun ammattikorkeakoulun 2. vuoden ohjelmistokehityksen opiskelij
 
 Nimellä ClimateView-työstetty työkalu on Googlen pilvialustalla toimiva web-pohjainen REST API-sovellus, joka sisältää ilmastonmuutokseen liittyviä mittauksia eri aikaväleiltä ja visualisoi ne graafeiksi.  
 
-Projektin frontend toteutettiin käyttäen React.js-nimistä JavaScript-kirjastoa ja backend käyttäen Java-Spring ajoympäristöä. Tietokantana käytimme MySQL-tietokantaa. Frontend puolella haimme tietokannasta mittaustuloksia axios-pyynnöillä.  
+Projektin frontend toteutettiin käyttäen React.js-nimistä JavaScript-kirjastoa ja backend käyttäen Java-Spring ajoympäristöä. Tietokantana käytimme MySQL-tietokantaa.
 <br/>
 
 
@@ -37,7 +37,7 @@ Yläpalkista löytyy "ClimateView"-painike joka palauttaa käyttäjän takasin e
   
 
 <ins>**Kuva 3.**</ins> Oikealla näkyvät linkit ovat käyttäjän kirjautumiseen ja rekisteröitymiseen. Rekisteröityminen tapahtuu klikkaamalla “Signup”-toimintoa johon uusi käyttäjä syöttää nimen, sähköpostiosoitteen ja salasanan.  
-Rekisteröitymisen jälkeen käyttäjä tallentuu MySql- tietokantaan josta näkee käyttäjän nimen, sähköpostiosoitteen ja salasanan (cryptattuna).  
+Rekisteröitymisen jälkeen käyttäjä tallentuu MySql- tietokantaan josta näkee käyttäjän nimen, sähköpostiosoitteen ja salasanan (salattuna).  
 Rekisteröitymisen jälkeen sivu päivittyy kirjautumisosioon johon käyttäjä syöttää nimen ja salasanan. Autentikointi käyttäjälle on tehty käyttämällä bearer-tokenia.  
 Kirjautuessa sisään käyttäjän tokeni tallentuu automaattisesti selaimen local-storageen, mistä se on kopioitavissa käyttäjän tietojen hakua varten.  
 Käyttäjän antaessa väärän salasanan, tulostuu selaimelle varoitus ilmoitus “Väärä käyttäjätunnus tai salasana, yritä uudelleen”.  
